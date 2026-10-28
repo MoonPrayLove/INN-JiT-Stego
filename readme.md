@@ -8,6 +8,13 @@ In this open-source repository, we provide the code for model definitions and mo
 
 # Model Structure
 Our model is composed of reversible neural networks and an ODE integrator, as shown in the figure.
+![alt text](assets/image.png)
 
 # Train
 Retrain the model using the provided train.py script.
+
+```bash
+python train.py --epochs 100 --save --device cuda:0
+```
+
+# Valid
